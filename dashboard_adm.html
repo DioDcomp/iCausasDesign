@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard_template.css">
+    <link rel="stylesheet" href="dashboard_main_template.css">
+    <link rel="stylesheet" href="dashboard_visao_geral.css">
+    <link rel="stylesheet" href="dashboard_graphics_and_informations.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="graphic_principal.js" defer></script>
+    <title>iCausas</title>
+</head>
+<body>
+    <div id="container">
+        <aside class="dashboard_menu active"></aside>
+        <header id="dashboard_header"></header>
+        <main id="dashboard_principal_screen">
+            <div id="dashboard_visao_geral">
+                <div id="dashboard_graphic_and_informations">
+                    <div id="dashboard_graphic_main">
+                        <canvas id="main_graphic" height="25" width="40"></canvas>
+                    </div>
+                    <div id="dashboard_informations_graphic"></div>
+                </div>
+                <div id="dashboard_especifcs_informations"></div>
+            </div>
+            <div class="dashboard_main_painel active"></div>
+        </main>
+    </div>
+</body>
+</html>
