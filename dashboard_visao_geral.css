@@ -16,3 +16,9 @@
     height: 23rem;
     width: 95%;
 }
+
+@media (min-width: 1000px){
+    #dashboard_graphic_and_informations{
+        top: 5rem;
+    }
+}

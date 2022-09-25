@@ -16,29 +16,53 @@ body{
 #dashboard_header{
     position: fixed;
     top: 1rem;
-    right: 1rem;
     height: 4rem;
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     background-color: #f7f7f7;
     box-shadow: 0px 1px 1px rgba(0,0,0,.2);
-}
-
-.dashboard_menu.active{
-    position: fixed;
-    top: 2.5%;
-    left: 2.5%;
-    width: 5%;
-    height: 95%;
-    border-radius: 25px;
-    background-color: rgb(0, 99, 199);
-    box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    z-index: 50;
 }
 
 #dashboard_principal_screen{
-    position: fixed;
+    position: absolute;
     top: 6rem;
-    right: 1rem;
-    width: 90%;
+    width: 100%;
     height: var(--height_main);
+}
+
+.dashboard_menu{
+    position: fixed;
+    top: 1.5rem;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: rgb(0, 99, 199);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    z-index: 51;
+}
+
+@media (min-width: 850px){
+    .dashboard_menu{
+        left: 2rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    #dashboard_header{
+        right: 1rem;
+        width: 90%;
+    }
+}
+
+@media (min-width: 1200px){
+    #dashboard_principal_screen{
+        width: 90%;
+        right: 1rem;
+    }
+    .dashboard_menu{
+        height: 95%;
+        top: 2.5%;
+        left: 3rem;
+    }
 }
