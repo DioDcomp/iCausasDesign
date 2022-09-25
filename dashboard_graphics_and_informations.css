@@ -14,4 +14,39 @@
     height: 28rem;
     width: 20rem;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#h2_curso{
+    color: rgba(0,0,0,.7);
+}
+
+#informations_datas{
+    position: absolute;
+    background-color: #ffffff;
+    height: 85%;
+    width: 90%;
+    left: 5%;
+    top: 15%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.05);
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+#tabela_informations_dashboard{
+    width: 100%;
+    height: 100%;
+    color: rgba(0,0,0,.8);
+}
+
+.line_principal_of_table{
+    background-color: rgba(64,224,208, .5);
+}
+
+.line_secondary_table{
+    background-color: rgba(64,224,208, .2);
 }

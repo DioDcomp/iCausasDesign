@@ -1,7 +1,7 @@
 #dashboard_graphic_and_informations{
     position: absolute;
     left: 2.5%;
-    bottom: 1rem;
+    top: 25rem;
     height: 28rem;
     width: 95%;
     display: flex;
