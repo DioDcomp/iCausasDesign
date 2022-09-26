@@ -1,7 +1,6 @@
 #painel_select_causa, #painel_select_intervalo, #painel_select_curso{
-    width: 100%;
+    width: 80%;
     height: 6rem;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -14,7 +13,7 @@
 }
 
 #painel_select_causa{
-    height: 12rem;
+    height: 14rem;
 }
 
 #painel_select_curso{

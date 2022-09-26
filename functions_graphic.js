@@ -120,3 +120,18 @@ const indexMenor = (valores) => {
     }
     return valor
 }
+
+// função de atualizar tamanho do gráfico
+
+window.addEventListener("resize", () => {
+    if(document.documentElement.clientWidth > "1400"){
+        main_graphic.style.width = "80"
+    }else if(document.documentElement.clientWidth > "600"){
+        main_graphic.style.width = "60"
+    }else if(document.documentElement.clientWidth > "400"){
+        main_graphic.style.width = "40"
+    }else if(document.documentElement.clientWidth > "300"){
+        main_graphic.style.width = "20"
+        main_graphic.style.height = "30"
+    }
+})

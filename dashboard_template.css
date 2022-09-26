@@ -43,9 +43,18 @@ body{
     z-index: 51;
 }
 
+@media (max-width: 1000px){
+    #dashboard_header{
+        top: 0;
+    }
+    .dashboard_menu{
+        top: .5rem;
+    }
+}
+
 @media (min-width: 850px){
     .dashboard_menu{
-        left: 2rem;
+        left: .5rem;
         height: 3.5rem;
         width: 3.5rem;
     }

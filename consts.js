@@ -1,3 +1,6 @@
+//constantes de gráfico
+const main_graphic = document.getElementById("main_graphic")
+
 //constante de curso no h2
 const h2_curso = document.getElementById("h2_curso")
 
